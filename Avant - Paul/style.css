@@ -1,0 +1,12 @@
+body,
+nav {
+  height: 100vh;
+  font-size: 1.2em;
+  top: auto;
+  left: auto;
+  position: relative;
+}
+textPath {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+}
