@@ -10,6 +10,7 @@
 $(document).ready(function () {
   $(".images").hover(function () {
     $("nav").css({
+      display: "block",
       width: $(this).width(),
       height: $(this).height(),
       left: $(this).position().left,

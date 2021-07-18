@@ -1,11 +1,13 @@
-body,
-nav {
-  height: 100vh;
+body {
   font-size: 1.2em;
+  margin: 5em;
+}
+
+nav {
+  display: none;
   top: auto;
   left: auto;
-  position: relative;
-  transform-origin: center center;
+  position: absolute;
 }
 textPath {
   font-family: Arial, Helvetica, sans-serif;
@@ -21,7 +23,12 @@ textPath {
 }
 
 #rect-nav {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+}
+
+a {
+  fill: olivedrab;
+}
+
+div {
+  margin-top: 5em;
 }
