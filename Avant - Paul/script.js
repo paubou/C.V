@@ -12,10 +12,10 @@ $(document).ready(function () {
     $("nav").css({
       width: $(this).width(),
       height: $(this).height(),
-      left: $(this).offset().left,
-      top: $(this).offset().top,
+      left: $(this).position().left,
+      top: $(this).position().top,
     });
     console.log($(this).width());
-    console.log($(this).offset());
+    console.log($(this).position());
   });
 });

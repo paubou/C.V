@@ -5,8 +5,23 @@ nav {
   top: auto;
   left: auto;
   position: relative;
+  transform-origin: center center;
 }
 textPath {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2em;
+}
+
+.title {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+#rect-nav {
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
