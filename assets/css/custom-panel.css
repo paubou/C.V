@@ -1,0 +1,31 @@
+[data-back="custom"] span {
+  background: #B294BB;
+}
+
+body{
+}
+
+.k-topbar{
+   background: lightslategray;
+}
+.k-topbar-signals{
+    background-color: lightslategray;
+
+}
+
+.k-topbar-loader {
+    background: orange;
+        -webkit-animation: fadeInFromNone 0.5s ease-out;
+    -moz-animation: fadeInFromNone 0.5s ease-out;
+    -o-animation: fadeInFromNone 0.5s ease-out;
+    animation: fadeInFromNone 0.5s ease-out;
+}
+
+[dir="ltr"] .k-topbar-signals::before{
+    opacity: 0.2;
+}
+
+.k-headline-editable{ /*titre de la page */
+
+}
+

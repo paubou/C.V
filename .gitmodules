@@ -1,0 +1,9 @@
+[submodule "site/plugins/dominantcolorgit"]
+	path = site/plugins/dominantcolorgit
+	url = git@github.com:iandoe/kirby-dominant-color.git
+[submodule "kirby-dominant-color"]
+	path = kirby-dominant-color
+	url = git@github.com:iandoe/kirby-dominant-color.git
+[submodule "site/plugins/dominantcolor"]
+	path = site/plugins/dominantcolor
+	url = git@github.com:iandoe/kirby-dominant-color.git

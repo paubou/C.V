@@ -1,0 +1,16 @@
+Title: Images
+
+fields:
+  colorextractor:
+    label: Color extractor
+    type: colorextractor
+  files:
+    headline: Images
+    type: files
+    template: color
+  color:
+    label: Dominant Color
+    type: color
+  alt:
+    label: Description de l'image
+    type: text
