@@ -11,7 +11,7 @@
     <header>
         <a href="<?= $site->url() ?>"> <?= $site->title() ?></a>  
         <nav class="menu">
-            <?php foreach ($site->children()->unlisted()->sortBy('title', 'asc') as $subpage): ?>
+            <?php foreach ($site->children()->listed()->sortBy('title', 'asc') as $subpage): ?>
                  <a href="<?= $subpage->url() ?>"> <?= $subpage->title() ?></a>  
             <?php endforeach ?>
         </nav>

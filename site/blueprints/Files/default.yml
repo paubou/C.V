@@ -8,8 +8,8 @@ fields:
     headline: Images
     type: files
     template: color
-  color:
-    label: Dominant Color
+  bgcolor:
+    label: Background Color
     type: color
   alt:
     label: Description de l'image
